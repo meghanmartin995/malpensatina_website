@@ -11,13 +11,13 @@
   padding: 4.5% 10%;
 }
 .headertext h1 {
-  font-size: 9vw;
+  font-size: 9.6vw;
   letter-spacing: .1em;
   margin-bottom: 18px;
 }
 
 .headertext h2 {
-  font-size: 6vw;
+  font-size: 6.6vw;
   letter-spacing: .11em;
 }
 
@@ -27,6 +27,19 @@
   }
 }
 
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+   .banner {
+    height: 40vh;
+  }
+  }
+
+
+
+
 @media screen and (min-width: 750px) {
   .headertext h1 {
     font-size: 72px;
@@ -35,15 +48,11 @@
   .headertext h2 {
     font-size: 40px;
   }
-
-
 }
 
 @media screen and (max-width: 660px) {
-
  .headertext {
-    padding-top: 18%;
+    padding-top: 38px;
   }
-
 }
 

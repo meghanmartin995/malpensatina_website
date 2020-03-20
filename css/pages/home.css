@@ -18,15 +18,58 @@
   margin-bottom: 0;
 }
 
-.slider {
-  height: 60vh;
-  width: 100%;
+.images {
+  display: flex;
+  justify-content: center;
 }
+
+.images img {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: -40%;
+}
+
+@media screen and (min-width: 1000px) {
+  .images img {
+    width: 800px;
+  }
+}
+
 
 .greenbody {
   background: #426346;
-  display: flex;
-  margin-top: 250px;
+  height: 280px;
+}
+
+@media screen and (max-width: 414px) {
+  .greenbody {
+    height: 230px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .greenbody {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .greenbody {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .greenbody {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .greenbody {
+    height: 700px;
+  }
 }
 
 

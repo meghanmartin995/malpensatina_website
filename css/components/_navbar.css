@@ -35,12 +35,32 @@
   padding: 0 20px;
 }
 
+@media screen and (max-width: 660px) {
+ .navbar li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+ .navbar img {
+    width: 40px;
+  }
+
+  .maintext p {
+    font-size: 22px !important;
+  }
+}
+
 .logolinks li {
   padding: 0 0px;
 }
 
 .logo img {
   margin-top: -10px
+}
+
+.logo img:hover {
+  opacity: .7;
 }
 
 .navbar li a {
@@ -56,3 +76,23 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .banner {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner {
+    height: 80vh;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .header-text {
+    padding: 12.5% 10%;
+  }
+}
+
+
