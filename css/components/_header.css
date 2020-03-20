@@ -56,3 +56,23 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+ .headertext {
+    padding-top: 60px;
+  }
+
+  .banner {
+    height: 56vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+ .headertext {
+    padding-top: 50px;
+  }
+
+  .banner {
+    height: 50vh;
+  }
+}
+
