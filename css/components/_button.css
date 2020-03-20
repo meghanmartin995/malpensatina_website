@@ -1,0 +1,19 @@
+.mainbutton {
+  border-radius: 5px;
+  background-color: rgba(139, 78, 48, 0.79);
+  color: #ffffff;
+  padding: 8px 28px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.12px;
+  margin-top: 22px;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+}
+
+
+
+.mainbutton:hover {
+  opacity: .7;
+}

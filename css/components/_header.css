@@ -1,0 +1,25 @@
+.headertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headertext {
+  margin-top: 6%;
+}
+.headertext h1 {
+  font-family: TiemposHeadlineTest;
+  font-size: 72.6px;
+  font-weight: 500;
+  letter-spacing: 5.81px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.headertext h2 {
+  font-family: TiemposFineTest;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 3.04px;
+  color: #ffffff;
+}
