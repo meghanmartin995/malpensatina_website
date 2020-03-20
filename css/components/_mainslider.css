@@ -1,8 +1,24 @@
 .carousel-cell img {
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 
 .main-carousel {
   margin-bottom: 70px;
 }
+
+
+
+
+@media screen and (min-width: 1000px) {
+ .mid-section {
+    padding: 10px 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+ .mid-section {
+    padding: 10px 100px;
+  }
+}
+
