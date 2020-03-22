@@ -13,6 +13,16 @@
 }
 
 
+@media (max-width: 450px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-team {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 
