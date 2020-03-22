@@ -1,0 +1,91 @@
+.activities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 50px;
+  color: #3E3D3D;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 50px;
+  background: #E4D1C0;
+}
+
+.quote {
+  background: #96664D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+  font-family: Tiempos Fine Test;
+  font-style: italic;
+  font-size: 27.0988px;
+  line-height: 31px;
+  /* or 114% */
+  letter-spacing: 0.15em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.quote h2 {
+  padding: 0 180px;
+}
+
+.tosee-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 50px 0;
+}
+
+.tosee {
+  padding: 0 50px;
+}
+
+.text-section {
+  background: #96664D;
+  color: white;
+}
+
+.text-section h3 {
+  font-family: Tiempos Fine Test;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 54px;
+  letter-spacing: 0.08em;
+}
+
+.text-section p {
+  font-family: Montserrat;
+  font-size: 22px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+}
+
+
+.footer3 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+@media (max-width: 650px) {
+  .activities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tosee-grid {
+    grid-template-columns: 1fr;
+  }
+}

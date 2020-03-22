@@ -27,6 +27,7 @@
   grid-gap: 20px;
   padding: 10px;
   text-align: center;
+  background: #E4D1C0;
 }
 
 .grid-team h3 {
@@ -47,7 +48,7 @@
 .contact h2 {
   font-family: Tiempos Fine Test;
   font-weight: 600;
-  font-size: 45px;
+  font-size: 38px;
   letter-spacing: 0.08em;
 }
 
@@ -76,17 +77,6 @@
     grid-template-columns: 1fr;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .info {
   height: 28vh;
