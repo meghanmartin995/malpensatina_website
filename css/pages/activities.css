@@ -31,6 +31,7 @@
   font-size: 23.9981px;
   letter-spacing: 0.08em;
   color: #426346;
+  margin-top: 16px;
 }
 
 .photo-grid {
@@ -101,6 +102,10 @@ color: rgba(255, 255, 255, 0.94)
   letter-spacing: 0.1em;
 }
 
+.enjoy img {
+  width: 575px;
+}
+
 
 .footer3 {
   text-align: center;
@@ -117,11 +122,16 @@ color: rgba(255, 255, 255, 0.94)
     grid-template-columns: 1fr;
   }
 
-  .photo-grid {
-    grid-template-columns: 1fr;
-  }
-
   .tosee-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 800px) {
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+
 }
