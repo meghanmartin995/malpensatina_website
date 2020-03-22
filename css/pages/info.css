@@ -3,6 +3,22 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 10px;
+  color: #3E3D3D;
+}
+
+.grid-container h2 {
+  font-family: Tiempos Fine Test;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.grid-container p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 41px;
+  letter-spacing: 0.1em;
 }
 
 .grid-team {
@@ -10,10 +26,48 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: 10px;
+  text-align: center;
+}
+
+.grid-team h3 {
+  font-family: Tiempos Fine Test;
+  font-weight: 500;
+  font-size: 20.1854px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.grid-team p {
+  font-family: Montserrat;
+  font-size: 16.4px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.contact h2 {
+  font-family: Tiempos Fine Test;
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: 0.08em;
+}
+
+.contact p {
+  font-family: Montserrat;
+  font-size: 22px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+}
+
+.footer2 {
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 5650px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
