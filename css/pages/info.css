@@ -1,3 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.grid-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .info {
   height: 28vh;
   background-size: cover;
