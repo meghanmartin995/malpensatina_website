@@ -36,7 +36,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding: 30px 100px;
+  padding: 60px 100px;
   text-align: center;
   color: white;
 }
@@ -73,14 +73,10 @@
   color: white;
   padding-left: 40px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 80px;
 
 }
 
-.contact img {
-  height: 500px;
-  width: 100%;
-}
 .contact h2 {
   font-family: Tiempos Fine Test;
   font-weight: 600;
@@ -115,6 +111,13 @@
   .grid-team {
     grid-template-columns: 1fr;
   }
+  .photo img {
+    display: none;
+  }
+
+  .contact {
+    padding-bottom: 100px;
+  }
 }
 
 .info {
@@ -144,10 +147,11 @@
   .info {
     height: 50vh;
   }
+
 }
 
 @media screen and (min-width: 750px) {
   .header-info h1 {
     font-size: 65px !important;
-  }
+   }
   }
