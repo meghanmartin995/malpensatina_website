@@ -72,6 +72,15 @@
   padding: 0 50px;
 }
 
+.tosee h2 {
+  font-family: Tiempos Fine Test;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+color: rgba(255, 255, 255, 0.94)
+}
+
 .text-section {
   background: #96664D;
   color: white;
