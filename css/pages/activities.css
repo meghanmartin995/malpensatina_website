@@ -1,8 +1,8 @@
 .activities-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 50px;
+  grid-gap: 80px;
+  padding: 90px;
   color: #3E3D3D;
 }
 
@@ -10,16 +10,18 @@
   font-family: Tiempos Fine Test;
   font-style: normal;
   font-weight: 500;
-  font-size: 40.3167px;
+  font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.1em;
   color: #637D66;
+  padding-bottom: 15px;
 }
 
 .activities-grid p {
   font-family: Montserrat;
-  font-size: 23.9981px;
+  font-size: 23px;
   line-height: 43px;
+  font-weight: 300;
   /* or 180% */
   letter-spacing: 0.1em;
   color: #3E3D3D;
@@ -31,7 +33,11 @@
   font-size: 23.9981px;
   letter-spacing: 0.08em;
   color: #426346;
-  margin-top: 16px;
+  margin-top: 19px;
+}
+
+.margin  {
+  margin-left: 40px;
 }
 
 .photo-grid {
