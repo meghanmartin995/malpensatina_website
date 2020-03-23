@@ -51,8 +51,8 @@
 .grid-team {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  padding: 60px 100px;
+  grid-gap: 30px;
+  padding: 40px 100px 90px 100px;
   text-align: center;
   color: white;
   margin: 0 auto;
@@ -61,6 +61,16 @@
 
 .team-background  {
   background: #E4D1C0;
+}
+
+.team-background h2 {
+  font-family: Tiempos Fine Test;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: white;
+  padding-top: 70px;
+  color: white;
 }
 
 .grid-team h3 {
