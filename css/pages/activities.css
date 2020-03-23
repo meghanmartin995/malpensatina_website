@@ -84,6 +84,11 @@
   margin-left: 0;
 }
 
+.grid-item-photo {
+  height: 297px;
+  width: 100%;
+}
+
 .background {
   background: #E4D1C0;
   height: 150px;
