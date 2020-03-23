@@ -48,6 +48,14 @@
   background: #E4D1C0;
 }
 
+.photo {
+  display: flex;
+  justify-content: 0;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+}
+
 .quote {
   background: #96664D;
   display: flex;
@@ -71,6 +79,16 @@
 .tosee-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+}
+
+.bg {
+  background: #E4D1C0;
+}
+
+.grid-item-see {
+  width: 100%;
+  margin-left: 0;
 }
 
 .background {
@@ -83,7 +101,8 @@
   font-size: 40px;
   text-align: center;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.94)
+  color: white;
+  margin-bottom: 60px;
 }
 
 .text-section {
