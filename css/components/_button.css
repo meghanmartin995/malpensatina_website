@@ -10,10 +10,32 @@
   margin-top: 22px;
   transition: all .3s ease 0s;
   cursor: pointer;
+  text-decoration: none;
 }
-
-
 
 .mainbutton:hover {
   opacity: .7;
+  text-decoration: none;
+  color: white;
+}
+
+.secondbutton {
+  border-radius: 5px;
+  background-color: rgba(139, 78, 48, 0.79);
+  color: #ffffff;
+  padding: 10px 32px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.12px;
+  margin-top: 22px;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.secondbutton:hover {
+  opacity: .7;
+  text-decoration: none;
+  color: white;
 }

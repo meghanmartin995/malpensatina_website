@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-  padding: 120px;
+  padding: 80px 120px;
   color: #3E3D3D;
 }
 
@@ -16,12 +16,28 @@
 
 .grid-container p {
   font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 21px;
+  font-weight: 300;
+  font-size: 23px;
   line-height: 41px;
   letter-spacing: 0.1em;
   font-weight: 400;
+}
+
+.margin-b {
+  margin-bottom: 22px;
+
+}
+
+.margin-r {
+  margin-right: 80px;
+}
+
+.margin-l {
+  margin-left: 90px;
+}
+
+.mar-l {
+  margin-left: 100px;
 }
 
 .right {
