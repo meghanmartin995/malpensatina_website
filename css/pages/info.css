@@ -55,6 +55,7 @@
   padding: 60px 100px;
   text-align: center;
   color: white;
+  margin: 0 auto;
 }
 
 .team-background  {
@@ -91,7 +92,7 @@
   background: #96664D;
   color: white;
   padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 100px;
   padding-right: 140px;
 
 }
@@ -99,7 +100,8 @@
 .contact h2 {
   font-family: Tiempos Fine Test;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 42px;
+  margin-bottom: 30px;
   letter-spacing: 0.08em;
 }
 
