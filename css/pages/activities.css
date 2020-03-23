@@ -97,7 +97,7 @@
 .text-section h3 {
   font-family: Tiempos Fine Test;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 44px;
   line-height: 54px;
   letter-spacing: 0.08em;
 }
@@ -129,9 +129,10 @@
   margin-top: -50px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .activities-grid {
     grid-template-columns: 1fr;
+    text-align: center !important;
   }
 
   .tosee-grid {
@@ -154,6 +155,16 @@
 
   .text-section {
     padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .text-section h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .text-section p {
+    padding-top: 25px;
   }
 }
 
