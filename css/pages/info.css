@@ -73,6 +73,8 @@
 .grid-team p {
   font-family: Montserrat;
   font-size: 16.4px;
+  font-weight: 300;
+  padding: 0 20px;
   letter-spacing: 0.1em;
   color: rgba(255, 255, 255, 0.72);
 }
@@ -82,6 +84,7 @@
   border-radius: 3px;
   width: 274px;
   height: 407px;
+  box-shadow: 2.88362px 2.88362px 15px rgba(150, 102, 77, 0.3);
 }
 
 .contact {
