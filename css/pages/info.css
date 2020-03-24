@@ -246,8 +246,28 @@
   .info {
     height: 50vh;
   }
-
 }
+
+@media (max-width: 900px) {
+  .grid-container img {
+    width: 450px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-container img {
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
 
 @media screen and (min-width: 750px) {
   .header-info h1 {
