@@ -171,7 +171,7 @@
 }
 
 .header-info {
-  padding: 0 60px !important;
+  padding: 0 40px !important;
 
 }
 
@@ -220,7 +220,7 @@
   .contact h2 {
     margin-bottom: 20px;
     padding-top: 15px;
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .contact p {
@@ -236,12 +236,36 @@
 }
 
 
-@media (min-width: 600px) {
+@media (max-width: 420px) {
   .info {
-    height: 40vh;
+    height: 30vh;
   }
-  .info-wrapper {
 
+  .grid-container {
+    grid-gap: 13px;
+  }
+
+  .grid-item img {
+    width: 290px !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .grid-team {
+    padding-top: 30px;
+  }
+
+  .team-background h2 {
+    padding-top: 40px;
+  }
+
+  .grid-container h2 {
+    font-size: 24px;
+  }
+
+  .grid-container p {
+    font-size: 18px;
+    line-height: 43px;
   }
 }
 
