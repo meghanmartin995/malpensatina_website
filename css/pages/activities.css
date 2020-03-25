@@ -131,7 +131,16 @@
   text-align: center;
   letter-spacing: 0.1em;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+@media (max-width: 1200px) {
+ .tosee h2 {
+   margin-bottom: 30px;
+   padding-top: 0;
+
+  }
 }
 
 .text-section {
@@ -255,7 +264,7 @@
   }
 
   .bg h2 {
-    font-size: 28px !important;
+    font-size: 30px !important;
     padding-top: 30px;
     margin-bottom: 20px;
     padding-bottom: 0;
@@ -285,9 +294,9 @@
     text-align: center;
   }
 
-    .activities-grid img {
-    width: 250px;
-    height: 100%;
+  .activities-grid img {
+  width: 250px;
+  height: 100%;
 
   }
 
