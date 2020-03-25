@@ -58,19 +58,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 320px;
+  width: 100%;
   text-align: center;
   font-family: Tiempos Fine Test;
   font-style: italic;
-  font-size: 60px;
-  line-height: 97px;
+
   /* or 114% */
-  letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.9);
+
 }
 
 .quote h4 {
-  padding: 0 500px;
+ font-size: 40px !important;
+  line-height: 50px !important;
+  padding: 0 350px;
+  letter-spacing: 0.15em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 1200px) {
+ .quote h4 {
+  font-size: 33px !important;
+  line-height: 40px !important;
+  padding: 0 220px;
+  letter-spacing: 0.15em;
+
+  }
+}
+
+@media (max-width: 450px) {
+ .quote h4 {
+  font-size: 20px !important;
+  line-height: 27px !important;
+  padding: 0 150px;
+  letter-spacing: 0.15em;
+
+  }
 }
 
 .tosee-grid {
@@ -162,6 +185,10 @@
     padding: 0;
     margin: 0;
   }
+
+  .quote h4 {
+    padding: 0 40px;
+}
 
   .activities-wrapper {
     padding: 20px 40px;
@@ -280,10 +307,23 @@
    .activities-grid p {
     text-align: center;
     font-size: 16px;
+    margin-bottom: 0;
   }
 
   .activities-grid h5 {
     font-size: 16px;
+  }
+
+  .activities-grid {
+    grid-gap: 10px;
+    padding-bottom: 20px;
+  }
+  .quote h4 {
+    padding: 0 20px;
+  }
+
+  .quote {
+    height: 254px;
   }
 
 }
