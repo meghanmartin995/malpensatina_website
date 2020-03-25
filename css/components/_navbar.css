@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 1200px) {
   .banner {
-    height: 80vh;
+    height: 80vh !important;
   }
 }
 
