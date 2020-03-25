@@ -37,7 +37,7 @@
 }
 
 .margin  {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .margin h5 {
@@ -161,10 +161,10 @@
 
 .text-section p {
   font-family: Montserrat;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 44px;
+  font-size: 25px;
+  line-height: 57px;
   letter-spacing: 0.1em;
+  font-weight: 300;
   padding-top: 50px;
 }
 
