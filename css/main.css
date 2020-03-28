@@ -9,7 +9,6 @@
 
  @import 'components/_banner.css';
  @import 'components/_button.css';
- @import 'components/_slider.css';
  @import 'components/_footer.css';
  @import 'components/_navbar.css';
  @import 'components/_header.css';
@@ -36,6 +35,10 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*
