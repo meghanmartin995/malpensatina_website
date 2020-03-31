@@ -9,6 +9,12 @@
   font-weight: 500;
   font-family: TiemposFineTest;
   padding: 4.5% 10%;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .headertext h1 {
   font-size: 9.6vw;
@@ -45,6 +51,12 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+ .headertext {
+    margin-top: 15px;
+  }
+}
+
 @media screen and (max-width: 660px) {
  .headertext {
     padding-top: 38px;
@@ -63,7 +75,7 @@
 
 @media screen and (max-width: 375px) {
  .headertext {
-    padding-top: 50px;
+    padding: 30px 0;
   }
 
   .banner {
