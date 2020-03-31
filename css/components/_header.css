@@ -63,6 +63,15 @@
   }
 }
 
+
+@media screen and (max-width: 500px) {
+ .headertext {
+    padding-top: 60px;
+  }
+}
+
+
+
 @media screen and (max-width: 414px) {
  .headertext {
     padding: 60px 0 0 0;
