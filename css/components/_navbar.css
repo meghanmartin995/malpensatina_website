@@ -23,7 +23,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 33px 20px;
+  padding: 33px 35px;
+}
+@media (max-width: 400px) {
+  .navbar {
+    padding: 33px 22px;
+  }
 }
 
 .navbar ul {
