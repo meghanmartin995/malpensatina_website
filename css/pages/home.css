@@ -11,7 +11,7 @@
 
 
 .main-body {
-  width: 65%;
+  width: 82%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,9 +20,13 @@
   margin-bottom: 60px;
 }
 
+.maintext {
+  padding: 50px 0 0 35px;
+}
+
 .maintext p {
   font-family: TiemposFineTest;
-  font-size: 24px;
+  font-size: 25px;
   letter-spacing: 3px;
   color: #3e3d3d;
   text-align: center;

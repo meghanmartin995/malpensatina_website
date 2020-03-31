@@ -2,8 +2,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 80px;
-  padding: 90px 78px;
+  padding: 90px 85px;
   color: #3E3D3D;
+}
+
+.activities-grid img:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 30px 60px rgba(0,0,0 0.5);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.activities-grid img {
+  border-radius: 3px;
 }
 
 .activities-grid h3 {
@@ -48,9 +58,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding: 50px;
+  padding: 50px 55px;
   background: #E4D1C0;
+  text-align: center;
   justify-items: center;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 30px 60px rgba(0,0,0 0.5);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .quote {
@@ -127,7 +144,7 @@
 
 .tosee h2 {
   font-family: Tiempos Fine Test;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   letter-spacing: 0.1em;
   color: white;
