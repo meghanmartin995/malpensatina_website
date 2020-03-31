@@ -10,10 +10,15 @@
   margin-top: 22px;
   transition: all .3s ease 0s;
   cursor: pointer;
-  text-decoration: none;
+
 }
 
-.mainbutton:hover {
+.mainbutton a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainbutton a:hover {
   opacity: .7;
   text-decoration: none;
   color: white;
