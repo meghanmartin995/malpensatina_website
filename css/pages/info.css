@@ -312,3 +312,26 @@
     font-size: 65px !important;
    }
   }
+
+@media screen and (max-width: 320px) {
+  .headertext {
+    padding: 0;
+    margin-top: -12px;
+   }
+
+   .headertext h1 {
+    font-size: 35px;
+   }
+
+  .header-info {
+    margin-top: -24px !important;
+  }
+
+  #font-change {
+    font-size: 35px !important;
+  }
+
+   .navbar {
+      padding: 27px 0;
+   }
+  }
