@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 414px) {
  .headertext {
-    padding-top: 60px;
+    padding: 60px 0 0 0;
   }
 
   .banner {
@@ -79,7 +79,7 @@
   }
 
   .banner {
-    height: 50vh;
+    height: 48vh;
   }
 }
 
