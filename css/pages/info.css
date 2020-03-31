@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-  padding: 80px 120px;
+  padding: 80px 78px;
   color: #3E3D3D;
 
 }
@@ -143,7 +143,7 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .grid-container {
     grid-template-columns: 1fr;
     justify-items: center !important;
@@ -151,7 +151,6 @@
     margin: auto;
     text-align: center;
   }
-
 
   .center-button {
     text-align: center;
@@ -180,15 +179,36 @@
 }
 
 .info {
-  height: 28vh;
+  height: 32vh;
   background-size: cover;
   background-position: center;
 }
 
 .header-info {
   padding: 0;
-
+  margin-top: -17px;
 }
+
+@media (max-width: 780px) {
+  .header-info {
+    margin-top: 23px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-info {
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-info {
+    margin-top: 25px;
+  }
+}
+
+
+
 
 .header-info h1 {
   font-size: 7.6vw !important;
@@ -247,9 +267,14 @@
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 300px) {
   .info {
     height: 30vh;
+  }
+
+  .headertext h1 {
+    font-size: 35px;
+    margin-top: 10px;
   }
 
   .grid-container {
@@ -278,6 +303,7 @@
     font-size: 18px;
     line-height: 43px;
   }
+
 }
 
 @media (min-width: 700px) {
@@ -319,8 +345,14 @@
     margin-top: -12px;
    }
 
-   .headertext h1 {
+   #headertext h1 {
+      font-size: 37px !important;
+      margin-top: 33px !important;
+   }
+
+   .header-info h1 {
     font-size: 35px;
+    margin-top: 16px !important;
    }
 
   .header-info {
@@ -328,10 +360,24 @@
   }
 
   #font-change {
-    font-size: 35px !important;
+    font-size: 34px !important;
+    margin-top: 22px;
   }
 
    .navbar {
       padding: 27px 0;
    }
+
+   .footer3 p {
+      margin-top: -37px !important;
+   }
+
+   .grid-item img {
+     width: 257px !important;
+   }
+
+    .contact p {
+    padding: 0;
+    font-size: 16px;
+  }
   }

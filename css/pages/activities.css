@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 80px;
-  padding: 90px 120px;
+  padding: 90px 78px;
   color: #3E3D3D;
 }
 
@@ -282,7 +282,12 @@
 
 @media (max-width: 500px) {
   .text-section {
-    padding: 20px 60px;
+    padding: 35px 21px;
+    height: 459px !important;
+  }
+
+  .text-section h3 {
+    margin-top: 0 !important;
   }
 
   .background {
@@ -305,8 +310,17 @@
   }
 
   .headertext h1{
-    font-size: 38px !important;
+    font-size: 43px !important;
     padding: 0 !important;
+    margin-top: -5px;
+  }
+
+  #font-c {
+    font-size: 40px !important;
+  }
+
+  .margin {
+    margin: 0;
   }
 
   .activities-grid h3 {
