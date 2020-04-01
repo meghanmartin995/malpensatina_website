@@ -6,6 +6,52 @@
   color: #3E3D3D;
 }
 
+@media (max-width: 800px) {
+  .activities-grid {
+    margin: 20px 30px;
+    grid-template-columns: none;
+    padding: 0;
+    grid-gap: 35px;
+    text-align: center !important;
+    grid-template-areas:
+      'desA'
+      'photoA'
+      'desB'
+      'photoB'
+      'desC'
+      'photoC';
+  }
+  .grid-item {
+    margin-left: 0 !important;
+  }
+  .desA {
+    grid-area: desA;
+  }
+
+  .photoA {
+    grid-area: photoA;
+  }
+
+  .desB {
+    grid-area: desB;
+  }
+
+  .photoB {
+    grid-area: photoB;
+  }
+  .desC {
+    grid-area: desC;
+  }
+
+  .photoC {
+    grid-area: photoC;
+  }
+}
+
+
+
+
+
 .activities-grid img:hover {
   transform: scale(1.05, 1.05);
   box-shadow: 0 30px 60px rgba(0,0,0 0.5);
@@ -168,9 +214,7 @@
 .text-section {
   background: #96664D;
   color: white;
-  padding-left: 100px;
-  padding-top: 100px;
-  padding-right: 150px;
+  padding: 100px 73px;
 }
 
 .text-section h3 {
@@ -212,7 +256,7 @@
 
 @media (max-width: 800px) {
   .activities-grid {
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;*/
     grid-gap: 20px;
     text-align: center !important;
     padding: 0;
@@ -224,7 +268,7 @@
 }
 
   .activities-wrapper {
-    padding: 20px 40px;
+    padding: 30px 48px;
     text-align: center;
   }
 
@@ -398,7 +442,7 @@
   }
 
   .text-section {
-    height: 350px;
+    height: 440px;
   }
 
   .text-section p {

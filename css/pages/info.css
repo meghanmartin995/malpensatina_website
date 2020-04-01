@@ -4,20 +4,13 @@
   grid-gap: 50px;
   padding: 80px 98px;
   color: #3E3D3D;
-
-  /*grid-template-areas:
-    'photo4 description'
-    'photo1 description1'
-    'photo2 description2'
-    'photo3 description3'
-    'photo4 description4';*/
 }
 
 
 
 @media (max-width: 1000px) {
 
-  .photo4 {
+.photo4 {
   grid-area: photo4;
   height: 400px important!;
 }
