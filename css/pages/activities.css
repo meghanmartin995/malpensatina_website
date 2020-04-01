@@ -85,9 +85,10 @@
 }
 
 .quote h4 {
- font-size: 40px !important;
+  font-size: 40px !important;
   line-height: 50px !important;
   padding: 0 350px;
+  font-weight: 400;
   letter-spacing: 0.15em;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -168,7 +169,7 @@
   color: white;
   padding-left: 100px;
   padding-top: 100px;
-  padding-right: 80px;
+  padding-right: 150px;
 }
 
 .text-section h3 {
@@ -231,6 +232,14 @@
     height: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  .enjoy {
+    display: flex;
+  }
+
+  .d-flex {
+    display: flex;
   }
 
   .activities-grid h3 {

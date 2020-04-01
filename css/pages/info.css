@@ -79,6 +79,7 @@
 .team-background h2 {
   font-family: Tiempos Fine Test;
   font-size: 50px;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 0.1em;
   color: white;
@@ -115,8 +116,9 @@
 .contact {
   background: #96664D;
   color: white;
-  padding-left: 40px;
-  padding-top: 100px;
+  padding-left: 60px;
+  padding-top: 80px;
+  padding-right: 100px;
 
 
 }
@@ -124,18 +126,18 @@
 .contact h2 {
   font-family: Tiempos Fine Test;
   font-weight: 600;
-  font-size: 44px;
-  margin-bottom: 30px;
+  font-size: 43px;
+  margin-bottom: 16px;
   letter-spacing: 0.08em;
 }
 
 .contact p {
   font-family: Montserrat;
-  font-size: 25px;
-  line-height: 57px;
+  font-size: 24px;
+  line-height: 54px;
   letter-spacing: 0.1em;
   font-weight: 300;
-  padding-top: 25px;
+  padding-top: 0;
   padding-right: 60px;
 }
 
@@ -253,6 +255,10 @@
     margin: 0;
   }
 
+  section.bottom-section {
+    display: flex;
+  }
+
   .contact {
     text-align: center;
     margin: 0;
@@ -268,7 +274,7 @@
   .contact p {
     font-size: 18px;
     line-height: 35px;
-    padding: 0 15px;
+    padding: 10px 60px;
   }
 
   .footer2 p {
