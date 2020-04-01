@@ -377,7 +377,7 @@
   }
 
   .quote {
-    height: 215px;
+    height: 200px;
   }
 
 }
@@ -416,10 +416,11 @@
   .text-section {
     padding-bottom: 100px;
     text-align: center;
+    width: 100%;
   }
 
   .text-section h3 {
-    margin-bottom: 0;
+    margin-bottom: -12px;
     padding-bottom: 0;
     padding-top: 15px;
   }
@@ -431,6 +432,13 @@
   .tosee h2 {
     padding-bottom: 10px;
   }
+
+}
+@media (max-width: 400px) {
+  .footer3 p {
+      font-size: 17px;
+      margin-top: -41px;
+    }
 }
 
 
