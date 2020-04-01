@@ -46,6 +46,12 @@
   margin-bottom: -38%;
 }
 
+@media screen and (max-width: 400px) {
+  .images img {
+    width: 330px;
+  }
+}
+
 
 .greenbody {
     height: 700px !important;

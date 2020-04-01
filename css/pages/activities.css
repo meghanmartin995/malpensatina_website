@@ -18,8 +18,7 @@
 
 .activities-grid h3 {
   font-family: Tiempos Fine Test;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.1em;
@@ -365,7 +364,7 @@
   }
 
   .quote {
-    height: 254px;
+    height: 215px;
   }
 
 }
