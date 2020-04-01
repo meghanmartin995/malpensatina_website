@@ -3,9 +3,12 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   padding: 80px 98px;
-  color: #3E3D3D;
+  color: #574A44;
 }
 
+.grid-wrapper{
+  background: rgba(255, 254, 248, 0.5);
+}
 
 
 @media (max-width: 1000px) {
@@ -231,7 +234,7 @@
 */
   .center-button {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 21px;
   }
 
   .grid-wrapper {
@@ -314,7 +317,7 @@
   }
 
   .grid-container h2 {
-    font-size: 26px;
+    font-size: 27px;
     text-align: center;
   }
 

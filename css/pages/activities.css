@@ -6,6 +6,10 @@
   color: #3E3D3D;
 }
 
+.activities-wrapper {
+  background: rgba(255, 254, 248, 0.5);
+}
+
 @media (max-width: 800px) {
   .activities-grid {
     margin: 20px 30px;
@@ -492,11 +496,10 @@
   }
 
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .footer3 p {
-      font-size: 17px;
+      font-size: 16px;
       margin-top: -41px;
     }
 }
-
 
