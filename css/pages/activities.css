@@ -110,6 +110,10 @@
   letter-spacing: 0.15em;
 
   }
+
+  .text-section h3 {
+    padding-top: 0px;
+  }
 }
 
 .tosee-grid {
