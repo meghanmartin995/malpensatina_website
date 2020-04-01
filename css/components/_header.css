@@ -26,21 +26,8 @@
 .headertext h2 {
   font-size: 6.6vw;
   letter-spacing: .11em;
+  font-weight: 400
 }
-
-
-/*@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-   .banner {
-    height: 40vh;
-  }
-  }*/
-
-
-
 
 @media screen and (min-width: 750px) {
   .headertext h1 {

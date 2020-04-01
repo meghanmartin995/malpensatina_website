@@ -439,6 +439,14 @@
    }
   }
 
+  @media screen and (max-width: 400px) {
+
+   #headertext h1 {
+      font-size: 42px !important;
+      margin-top: 20px !important;
+   }
+}
+
 @media screen and (max-width: 320px) {
   .headertext {
     padding: 0;
