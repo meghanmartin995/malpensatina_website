@@ -4,6 +4,10 @@
 
 /index.html /home
 
+/home /index.html
+
+/home /index.html
+
 /about /info.html
 
 /contact /info.html
