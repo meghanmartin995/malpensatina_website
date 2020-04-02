@@ -7,7 +7,7 @@
 .headertext {
   color: white;
   font-weight: 500;
-  font-family: TiemposFineTest;
+  font-family: TiemposFineTest, serif;
   padding: 4.5% 10%;
   opacity: 0;
   animation: HeroAnimation;

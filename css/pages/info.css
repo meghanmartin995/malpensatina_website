@@ -86,7 +86,7 @@
 }
 
 .grid-container h2 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-weight: 600;
   font-size: 36px;
   letter-spacing: 0.1em;
@@ -94,7 +94,7 @@
 }
 
 .grid-container p {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-weight: 300;
   font-size: 23px;
   line-height: 41px;
@@ -150,7 +150,7 @@
 }
 
 .team-background h2 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
@@ -161,7 +161,7 @@
 }
 
 .grid-team h3 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-weight: 500;
   padding-bottom: 4px;
   font-size: 20.1854px;
@@ -171,7 +171,7 @@
 }
 
 .grid-team p {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 16.4px;
   font-weight: 300;
   padding: 0 20px;
@@ -198,7 +198,7 @@
 }
 
 .contact h2 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-weight: 600;
   font-size: 43px;
   margin-bottom: 16px;
@@ -206,7 +206,7 @@
 }
 
 .contact p {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
   line-height: 54px;
   letter-spacing: 0.1em;

@@ -67,7 +67,7 @@
 }
 
 .activities-grid h3 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-weight: 600;
   font-size: 36px;
   line-height: 40px;
@@ -77,7 +77,7 @@
 }
 
 .activities-grid p {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 23px;
   line-height: 43px;
   font-weight: 300;
@@ -87,7 +87,7 @@
 }
 
 .activities-grid h5 {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 23.9981px;
   letter-spacing: 0.08em;
@@ -127,7 +127,7 @@
   height: 320px;
   width: 100%;
   text-align: center;
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-style: italic;
 
   /* or 114% */
@@ -197,7 +197,7 @@
 }
 
 .tosee h2 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-size: 50px;
   text-align: center;
   letter-spacing: 0.1em;
@@ -222,7 +222,7 @@
 }
 
 .text-section h3 {
-  font-family: Tiempos Fine Test;
+  font-family: Tiempos Fine Test, serif;
   font-weight: 600;
   font-size: 44px;
   line-height: 54px;
@@ -230,7 +230,7 @@
 }
 
 .text-section p {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 25px;
   line-height: 57px;
   letter-spacing: 0.1em;
@@ -245,7 +245,7 @@
 
 .footer3 p {
   text-align: center;
-  font-family: Montserrat;
+  font-family: Montserrat sans-serif;
   font-weight: 500;
   font-size: 19px;
   line-height: 23px;

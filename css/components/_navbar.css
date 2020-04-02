@@ -1,6 +1,6 @@
 .navbar a {
   text-decoration: none;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 1.25em;
   font-weight: 500;
   color: white;
@@ -13,7 +13,7 @@
 }
 
 #logotext a {
-  font-family: TiemposHeadlineTest;
+  font-family: TiemposHeadlineTest, serif;
   font-size: 28px;
   font-weight: 500;
   letter-spacing: 2.52px;
