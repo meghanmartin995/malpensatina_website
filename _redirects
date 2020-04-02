@@ -2,6 +2,8 @@
 
 /info.html /info
 
+/index.html /home
+
 /home /index.html
 
 /about /info.html
