@@ -23,12 +23,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 33px 35px;
-}
-@media (max-width: 400px) {
-  .navbar {
-    padding: 33px 22px;
-  }
+  max-width: 1600px;
+  margin: 0 auto;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  right: 42px;
 }
 
 .navbar ul {
@@ -43,6 +43,11 @@
 @media screen and (max-width: 660px) {
  .navbar li {
     font-size: 14px;
+  }
+
+  .navbar {
+    left: 28px;
+    right: 28px;
   }
 }
 
@@ -82,22 +87,5 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-  .banner {
-    height: 60vh;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .banner {
-    height: 80vh !important;
-  }
-}
-
-@media only screen and (device-width: 768px) {
-  .header-text {
-    padding: 12.5% 10%;
-  }
-}
 
 

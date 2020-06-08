@@ -8,7 +8,6 @@
   color: white;
   font-weight: 500;
   font-family: TiemposFineTest, serif;
-  padding: 4.5% 10%;
   opacity: 0;
   animation: HeroAnimation;
   animation-duration: 3s;
@@ -17,66 +16,71 @@
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .headertext h1 {
-  font-size: 9.6vw;
+  font-size: 6.8vw;
   letter-spacing: .1em;
-  margin-bottom: 18px;
+  margin-bottom: 22px;
   font-weight: 500;
 }
 
 .headertext h2 {
-  font-size: 6.6vw;
+  font-size: 3.5vw;
   letter-spacing: .11em;
   font-weight: 400
 }
 
-@media screen and (min-width: 750px) {
+
+@media (max-width: 1100px) {
   .headertext h1 {
-    font-size: 72px;
-  }
-
+  font-size: 68px !important;
+}
   .headertext h2 {
-    font-size: 40px;
+    font-size: 40px !important;
   }
 }
 
-@media screen and (max-width: 700px) {
- .headertext {
-    margin-top: 15px;
+@media (max-width: 700px) {
+  .headertext h1 {
+  font-size: 59px !important;
+  }
+  .headertext h2 {
+    font-size: 35px !important;
   }
 }
 
-@media screen and (max-width: 660px) {
- .headertext {
-    padding-top: 38px;
+@media (min-width: 1800px) {
+  .headertext h1 {
+  font-size: 100px !important;
+  }
+  .headertext h2 {
+    font-size: 65px !important;
   }
 }
 
-
-@media screen and (max-width: 500px) {
- .headertext {
-    padding-top: 60px;
+@media (max-width: 500px) {
+  .headertext h1 {
+  font-size: 46px !important;
+  }
+  .headertext h2 {
+    font-size: 28px !important;
   }
 }
 
-
-
-@media screen and (max-width: 414px) {
- .headertext {
-    padding: 60px 0 0 0;
+@media (max-width: 390px) {
+  .headertext h1 {
+  font-size: 41px !important;
   }
-
-  .banner {
-    height: 56vh;
+  .headertext h2 {
+    font-size: 26px !important;
   }
 }
 
-@media screen and (max-width: 375px) {
- .headertext {
-    padding: 30px 0;
+@media (max-width: 340px) {
+  .headertext h1 {
+  font-size: 36px !important;
   }
-
-  .banner {
-    height: 48vh;
+  .headertext h2 {
+    font-size: 22px !important;
   }
 }
+
 

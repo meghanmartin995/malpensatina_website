@@ -21,6 +21,22 @@
 
  @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap');
 
+ @font-face {
+    font-family: TiemposFineTest;
+    src: url(TiemposFineTest-bold.woff);
+}
+
+ @font-face {
+    font-family: TiemposHeadlineTest;
+    src: url(tiempos-headline-test-bold.woff);
+}
+
+ @font-face {
+    font-family: Avenir;
+    src: url(avenir.woff);
+}
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */

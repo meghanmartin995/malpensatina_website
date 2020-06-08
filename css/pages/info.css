@@ -2,14 +2,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-  padding: 80px 98px;
+  padding: 80px 108px;
   color: #574A44;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-.grid-wrapper{
+.grid-wrapper {
   background: rgba(255, 254, 248, 0.5);
 }
 
+.grid-item {
+  max-width: 600px;
+}
 
 @media (max-width: 1000px) {
 
@@ -72,38 +77,40 @@
       'photo3' ;
   }
 
+  .photo1 {
+    justify-self: center !important;
+  }
+
+  .photo3 {
+    justify-self: center !important;
+  }
+
+
   .grid-container p {
     text-align: center;
     margin: 0;
+    padding: 0;
   }
-}
-
-
-.grid-container img:hover {
-  transform: scale(1.05, 1.05);
-  box-shadow: 0 30px 60px rgba(0,0,0 0.5);
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .grid-container h2 {
   font-family: Tiempos Fine Test, serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 36px;
   letter-spacing: 0.1em;
   margin-bottom: 18px;
 }
 
 .grid-container p {
-  font-family: Montserrat, sans-serif;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 41px;
+  font-family: Avenir, sans-serif;
   letter-spacing: 0.1em;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 43px;
 }
 
 .margin-b {
-  margin-bottom: 22px;
+  margin-bottom: 28px;
 
 }
 
@@ -115,9 +122,12 @@
   margin-left: 42px;
 }
 
-.mar-l {
-  margin-left: 225px;
-  text-align: right;
+.photo1 {
+  justify-self: right;
+}
+
+.photo3 {
+  justify-self: right;
 }
 
 .right {
@@ -132,11 +142,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  padding: 40px 100px 90px 100px;
+  padding: 54px 40px 90px 40px;
   text-align: center;
   color: white;
   margin: 0 auto;
   justify-items: center;
+  max-width: 1600px;
 }
 
 .brown:hover {
@@ -172,8 +183,10 @@
 
 .grid-team p {
   font-family: Montserrat, sans-serif;
-  font-size: 16.4px;
-  font-weight: 300;
+  font-size: 18px;
+  margin-top: 8px;
+  line-height: 126%;
+  font-weight: 400;
   padding: 0 20px;
   letter-spacing: 0.1em;
   color: rgba(255, 255, 255, 0.72);
@@ -205,6 +218,12 @@
   letter-spacing: 0.08em;
 }
 
+.bottom-section {
+  background-color: #96664D;
+  max-width: 1600px;
+  margin: 0 AUTO;
+}
+
 .contact p {
   font-family: Montserrat, sans-serif;
   font-size: 24px;
@@ -213,6 +232,7 @@
   font-weight: 300;
   padding-top: 0;
   padding-right: 60px;
+  max-width: 700px;
 }
 
 .footer2 {
@@ -240,7 +260,7 @@
   }
 
   .grid-wrapper {
-    padding: 20px 2px;
+    padding: 16px;
     display: flex;
     justify-content: center;
   }
@@ -266,41 +286,20 @@
   background-position: center;
 }
 
-.header-info {
-  padding: 0;
-  margin-top: 10px;
+.final {
+  width: 100%;
+  background: #96664D;
 }
 
-@media (max-width: 780px) {
-  .header-info {
-    margin-top: 23px;
-  }
-}
 
-@media (max-width: 700px) {
-  .header-info {
-    margin-top: -5px;
-  }
-}
+
 
 @media (max-width: 480px) {
-  .header-info {
-    margin-top: 31px;
-  }
-
   .grid-container img {
     width: 340px !important;
   }
-
 }
 
-
-
-
-.header-info h1 {
-  font-size: 7.6vw !important;
-  text-align: center;
-}
 
 @media (max-width: 800px) {
   .grid-container {
@@ -325,7 +324,7 @@
   }
 
   .grid-container p {
-    font-size: 18px;
+    font-size: 20.5px;
     text-align: center;
     margin: 0;
   }
@@ -369,11 +368,6 @@
 @media (max-width: 300px) {
   .info {
     height: 30vh;
-  }
-
-  .headertext h1 {
-    font-size: 35px;
-    margin-top: 10px;
   }
 
   .grid-container {
@@ -429,66 +423,26 @@
   }
 }
 
+@media screen and (max-width: 372px) {
+ .footer3 p {
+    margin-top: -37px !important;
+ }
 
-@media screen and (min-width: 900px) {
-  .headertext h1 {
-    font-size: 80px !important;
-    margin-top: 17px;
-  }
+ #about-header h1 {
+  font-size: 36px !important;
+ }
 
-  .header-info h1 {
-    font-size: 74px !important;
-    margin-top: 17px;
-   }
-  }
-
-  @media screen and (max-width: 400px) {
-
-   #headertext h1 {
-      font-size: 42px !important;
-      margin-top: 20px !important;
-   }
+ .navbar {
+  left: 4px;
+  right: 0px;
 }
 
-@media screen and (max-width: 320px) {
-  .headertext {
-    padding: 0;
-    margin-top: -12px;
-   }
+ .grid-item img {
+   width: 257px !important;
+ }
 
-   #headertext h1 {
-      font-size: 37px !important;
-      margin-top: 33px !important;
-   }
-
-   .header-info h1 {
-    font-size: 35px;
-    margin-top: 16px !important;
-   }
-
-  .header-info {
-    margin-top: -24px !important;
-  }
-
-  #font-change {
-    font-size: 34px !important;
-    margin-top: 22px;
-  }
-
-   .navbar {
-      padding: 27px 0;
-   }
-
-   .footer3 p {
-      margin-top: -37px !important;
-   }
-
-   .grid-item img {
-     width: 257px !important;
-   }
-
-    .contact p {
-    padding: 0;
-    font-size: 16px;
-  }
+  .contact p {
+  padding: 0;
+  font-size: 16px;
+}
   }

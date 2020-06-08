@@ -4,10 +4,27 @@
   grid-gap: 80px;
   padding: 90px 85px;
   color: #3E3D3D;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .activities-wrapper {
   background: rgba(255, 254, 248, 0.5);
+}
+
+.photos {
+  background: #E4D1C0;
+}
+
+.photo-grid {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.enjoy {
+  max-width: 1600px;
+  margin: 0 auto;
+  max-height: 800px;
 }
 
 @media (max-width: 800px) {
@@ -57,9 +74,9 @@
 
 
 .activities-grid img:hover {
-  transform: scale(1.05, 1.05);
+/*  transform: scale(1.05, 1.05);
   box-shadow: 0 30px 60px rgba(0,0,0 0.5);
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);*/
 }
 
 .activities-grid img {
@@ -77,22 +94,21 @@
 }
 
 .activities-grid p {
-  font-family: Montserrat, sans-serif;
-  font-size: 23px;
-  line-height: 43px;
+  font-family: AVENIR, sans-serif;
+  font-size: 24px;
   font-weight: 300;
-  /* or 180% */
+  line-height: 43px;
   letter-spacing: 0.1em;
   color: #3E3D3D;
 }
 
 .activities-grid h5 {
   font-family: Montserrat, sans-serif;
-  font-weight: 500;
-  font-size: 23.9981px;
+  font-weight: 400;
+  font-size: 24px;
   letter-spacing: 0.08em;
   color: #426346;
-  margin-top: 19px;
+  margin-top: 20px;
 }
 
 .margin  {
@@ -115,9 +131,9 @@
 }
 
 .photo-grid img:hover {
-  transform: scale(1.05, 1.05);
+/*  transform: scale(1.05, 1.05);
   box-shadow: 0 30px 60px rgba(0,0,0 0.5);
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);*/
 }
 
 .quote {
@@ -241,7 +257,7 @@
 
 .enjoy img {
   width: 575px;
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .footer3 p {
@@ -372,7 +388,7 @@
   }
 
   .activities-wrapper {
-    padding: 20px 30px 17px 30px;
+    padding: 16px;
     text-align: center;
   }
 
@@ -386,11 +402,6 @@
     font-size: 34px;
   }
 
-  .headertext h1{
-    font-size: 44px !important;
-    padding: 0 !important;
-    margin-top: -5px;
-  }
 
   #about h1 {
     font-size: 40.2px !important;
@@ -403,28 +414,23 @@
   }
 }
 
-  #font-c {
-    font-size: 40px !important;
-  }
-
   .margin {
    margin: 20px 0 10px 0;
   }
 
   .activities-grid h3 {
     text-align: center;
-    font-size: 26Spx;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 10px;
   }
 
    .activities-grid p {
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 0;
     line-height: 39px;
-    font-weight: 500;
   }
 
   .activities-grid h5 {

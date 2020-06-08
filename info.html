@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="info" style="background-image: linear-gradient(to top, rgba(255, 249, 249, 0.56), rgba(148, 148, 148, 0.67), rgba(89, 124, 99, 0.5)), url(img/vin.jpg);">
+  <div class="banner" id="info-banner" style="background-image: linear-gradient(to top, rgba(255, 249, 249, 0.56), rgba(148, 148, 148, 0.67), rgba(89, 124, 99, 0.5)), url(img/vin.jpg);">
     <nav class="navbar">
       <div class="logolinks">
         <ul>
@@ -28,11 +28,11 @@
     </ul>
     </div>
   </nav>
-    <header class="headertext header-info" id="about">
-      <h1 id="font-change">About Your Stay</h1>
+    <header class="headertext" id="about-header">
+      <h1>About Your Stay</h1>
     </header>
   </div>
-<div class="info-wrapper">
+<div class="info-wrapper";>
   <section class="grid-wrapper">
     <div class="grid-container">
       <div class="grid-item photo4">
@@ -54,7 +54,7 @@
       </div>
       <div class="grid-item right description2">
         <h2>Directions</h2>
-        <p class="margin-b margin-l">You can always enter “La Malpensatina” on Google Maps and it will route you to the house. If needed, download a pdf of directions. </p>
+        <p class="margin-b margin-l">You can always enter “La Malpensatina” on Google Maps and it will route you to the house. If needed, download a pdf of directions here. </p>
         <div class="center-button">
           <a class="secondbutton" download="Directions" href="./img/directions.pdf">download</a>
         </div>
@@ -94,18 +94,20 @@
         </div>
       </div>
   </section>
-  <section class="bottom-section" style="display: flex;">
-    <div class="photo">
-      <img src="img/contact.jpg" alt="">
-    </div>
-    <div class="contact">
-      <h2>Contact Us</h2>
-      <p>For any additional questions or concerns, please contact Lawrence through email at lamalpensatina@yahoo.com and he will be happy to help!</p>
-    </div>
-  </section>
-  <footer class="footer2">
-    <p>© 2020 LA MALPENSATINA </p>
-  </footer>
+  <div class="final">
+    <section class="bottom-section" style="display: flex; background-color: #96664D">
+      <div class="photo">
+        <img src="img/contact.jpg" alt="photo of tuscany">
+      </div>
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <p>For any additional questions or concerns, please contact Lawrence through email at lamalpensatina@yahoo.com and he will be happy to help!</p>
+      </div>
+    </section>
+    <footer class="footer2" style="background: #96664D">
+      <p>© 2020 LA MALPENSATINA </p>
+    </footer>
+  </div>
 </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
