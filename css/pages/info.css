@@ -152,9 +152,9 @@
 }
 
 .brown:hover {
-  transform: scale(1.05, 1.05);
+/*  transform: scale(1.05, 1.05);
   box-shadow: 0 30px 60px rgba(0,0,0 0.5);
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);*/
 }
 
 .team-background  {
